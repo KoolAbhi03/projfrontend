@@ -38,7 +38,6 @@ const Signin = () => {
       })
       .catch(console.log("signin request failed"));
   };
-
   const performRedirect = () => {
     //TODO: do a redirect here
     if (didRedirect) {
